@@ -1,0 +1,154 @@
+#wrapper {
+    width:1080px;
+    height:900px;
+    margin: 1em auto 1em auto;
+    border:4px solid black;
+
+
+}
+
+#media-banner {
+    width:1080px;
+    height:420px;
+    border-bottom:2px solid black;
+    margin: 0 auto 0 auto;
+    text-align: center;
+    background-image: url('../pictures/wallriderswithlogo.jpg');
+}
+#navbar {
+    width:100%;
+    height: 60px;
+    margin: 0 auto 0 auto;
+    border-bottom: 2px solid black;
+    position: relative;
+
+}
+
+#navbar ul {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background-color: #386C46;
+    width: 100%;
+    height: 100%;
+    float: left;
+    margin: 0 0 3em 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+#navbar ul li {
+    display: inline;
+    float: left;
+    width:154.2px;
+}
+
+
+#navbar ul li a
+{
+    font-family: Lobster, sans-serif;
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 10px 25px;
+    color: #ffffff;
+    background-color: #3f744d;
+}
+
+
+#navbar ul li a:hover {
+    font-family: Lobster, sans-serif;
+    font-weight: bold;
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 10px 25px;
+    color: #ffffff;
+    background-color: #40c668;
+}
+
+
+#display-window {
+    width: 1080px;
+    height:417px;
+}
+
+#display-window #store-info {
+
+    background-color: lightblue;
+    float: left;
+    width:818px;
+    height:416px;
+}
+
+#display-window #contact-info {
+    border-left: 2px solid #c6bd2f;
+    border-bottom: 2px solid #c6bd2f;
+    background-color: lightyellow;
+    float: right;
+    width:260px;
+    height:212px;
+    font-family: Lobster, sans-serif;
+    font-size: 0.75em;
+}
+
+
+#display-window #map {
+    border-left: 2px solid rgba(198, 189, 47, 0.82);
+    background-color: lightgreen;
+    font-family: Lobster, sans-serif;
+    float: right;
+    width:260px;
+    height:202px;
+}
+
+
+#display-window #rampcam {
+    background-color: rgba(19, 241, 255, 0.24);
+    font-family: Lobster, sans-serif;
+    float: left;
+    text-align: center;
+    width:755px;
+    height:100%;
+    border-right: 1px solid black;
+
+}
+
+#display-window #bookAsession {
+    background-color: lightgreen;
+    font-family: Lobster, sans-serif;
+    float: right;
+    width:324px;
+    text-align: center;
+    height:100%;
+}
+#display-window #bookAsession p {
+    text-align: left;
+    font-size: 0.8em;
+}
+#display-window #bookAsession table{
+    width:324px;
+    border-collapse: collapse;
+}
+#display-window #bookAsession table th {
+    border: 1px solid black;
+    background-color: #c6bd2f;
+}
+#display-window #bookAsession table td {
+    border: 1px solid black;
+    background-color: #ede431;
+    height:100%;
+}
+#display-window #bookAsession table td a{
+    display: inline-block;
+    width:100%;
+    background-color: #2fff53;
+    text-decoration:none;
+    color: black;
+
+
+}
+#display-window #bookAsession table td a.reserved {
+    background-color: red;
+    pointer-events: none;
+}
+

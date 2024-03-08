@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Advanced Online Store Search</title>
+    <link rel="stylesheet" type="text/css" href="../css/store.css">
+    <link rel="stylesheet" type="text/css" href="../css/srchFltrStyle.css">
+
+</head>
+<body>
+
+<div id="wrapper">
+    <div id="header">
+        <a href="store.html"><div id="title"><h1>ONE SIX ONLINE STORE</h1></div></a>
+        <div id="links">
+            <ul>
+                <li> <a href = "#">Shopping Cart </a></li>
+                <li> <a href = "#">Check Out</a></li>
+                <li> <a href = "#">Track Order</a></li>
+            </ul>
+        </div>
+        <div id="homelink"><a href="../index.html">Home</a></div>
+    </div>
+    <div id="display-window">
+        <div id="search-tools">
+            <div id="searchbar">
+                <div>Product Search</div>
+                <form method="get" action="">
+                <input type="text" name="q" size="8" maxlength="100" value="" />
+                <input type="submit" value="Search" />
+                </form>
+                <a href = "store-search-filters.html">Set Filters</a>
+            </div>
+            <br>
+            <div id="searchlinks">
+                <h3><u>Products</u></h3>
+                <ul>
+                    <li><a href = "#">New Stuff</a></li>
+                    <li><a href = "#">BMX</a></li>
+                    <li><a href = "#">Skateboards</a></li>
+                    <li><a href = "store_longboard.html">Longboards</a></li>
+                    <li><a href = "#">Clothing</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div id="grid">
+            <div class="srchfilter">
+            <h2>Advanced Search Options</h2>
+
+                <form method="get" action="sk8brdsrchresult.html">
+                    <h4>Set Keywords</h4> <input type="text" name="keyword"><br>
+                    <h4>Set Price Range</h4> Min Price:<input type="text" name="lowprice">
+                    Max Price:<input type="text" name="maxprice">
+                    <h4>Select Category</h4>
+                    <select>
+                        <option>BMX</option>
+                        <option>Longboard</option>
+                        <option>Skateboards</option>
+                        <option>Clothing</option>
+                    </select>
+                    <h4>Select Sub-Category</h4>
+                    <select>
+                        <option>Decks</option>
+                        <option>Wheels</option>
+                        <option>Trucks</option>
+                        <option>Hardware</option>
+                    </select>
+                    <br>
+                    <br>
+                    <input type="submit" value="Submit Filters and Search Products">
+                </form>
+            </div>
+
+        </div>
+
+        <div id="map">
+            <div id="bottom">
+                <table width="100%" cellpadding="5%" cellspacing="5%">
+                    <tr>
+                        <td><ul>
+                            <li><a href="#">Help</a></li>
+                            <li><a href="#">Site Map</a></li>
+                            <li><a href="#">Brands</a></li>
+                        </ul></td>
+                        <td><ul>
+                            <li><a href="#">Shipping Info</a></li>
+                            <li><a href="#">Privacy</a></li>
+                            <li><a href="#">Blog</a></li>
+                        </ul></td>
+                        <td><ul>
+                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">Terms of Use</a></li>
+                            <li><a href="#">Discounts</a></li>
+                        </ul></td>
+                        <td>
+                            <a href="#"><img src="../pictures/payment.png" alt="Payment Methods" width="90" height="65"></a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

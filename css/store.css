@@ -1,0 +1,185 @@
+a:visited {
+	Color: White;
+}
+
+a:link {
+	Color: White;
+}
+
+a:hover {
+	font-weight: bold;
+}
+
+#bottom a:link {
+	Color: Green;
+}
+
+#bottom a:visited {
+	Color: Green;
+}
+
+#bottom a:hover {
+	font-weight: normal;
+	Color: #906C46;
+
+}
+
+
+#wrapper {
+	width: 1080px;
+	height: 1022px;
+	margin: 1em auto 1em auto;
+	border: 4px solid black;
+}
+
+#header {
+	background-color: #386C46;
+	margin: auto;
+	width: 1080px;
+	border: 2px solid black;
+	height: 122px;
+	border-bottom: 2px solid #006600;
+}
+
+#header #title {
+	border: 2px solid #006600;
+	text-align: center;
+	float: left;
+	width: 754px;
+	height: 120px;
+	font-family: Lobster, sans-serif;
+	font-size: 1.5em;
+	color: white;
+	background-color: #388C46;
+
+}
+
+#links ul li {
+	margin: 7px 4px 4px 0;
+}
+
+#header #links {
+	font-family: Lobster, sans-serif;
+	float: left;
+	width: 200px;
+	height: 122px;
+	background-color: #386C46;
+	color: white;
+
+}
+
+#homelink {
+	float: right;
+	color: White;
+	font-family: Lobster, sans-serif;
+	margin-top: 27px;
+	margin-right: 8px;
+	padding: 25px 25px;
+	text-align: center;
+	font-size: 1em;
+	background-color: #3f744d;
+}
+
+#homelink a:hover {
+	font-weight: bold;
+	color: #ffffff;
+	background-color: #40c668;
+}
+
+
+#display-window {
+	border: 1px solid black;
+	width: 1080px;
+	height: 900px;
+
+}
+
+#display-window #search-tools {
+	border-bottom: 1px solid black;
+	font-family: Lobster, sans-serif;
+	background-color: #386C46;
+	float: left;
+	width: 20%;
+	height: 900px;
+}
+
+#search-tools #searchbar {
+	-webkit-border-radius: 10px;
+	width: 200px;
+	height: 50px;
+	margin-top: 20px;
+	margin-left: 10px;
+
+}
+
+#searchbar {
+	text-align: center;
+}
+
+#searchbar form {
+	text-align: center;
+}
+
+#searchbar form div {
+	text-decoration: underline;
+	text-align: center;
+	color: white;
+}
+
+#searchbar div {
+	text-decoration: none;
+	color: white;
+}
+
+#searchlinks {
+	font-family: Lobster, sans-serif;
+	margin-top: 30px;
+	margin-left: 25px;
+	height: 30px;
+	width: 120px;
+	color: white;
+
+}
+
+#searchlinks h3 {
+	text-decoration: underline;
+}
+
+#display-window #grid {
+	border-left: 2px solid #3f744d;
+	float: right;
+	width: 79.8%;
+	height: 795px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.75em;
+	text-align: center;
+}
+
+
+#display-window #map {
+	border: 1px solid black;
+	border-left: 2px solid #3f744d;
+	background-color: lightyellow;
+	float: right;
+	width: 79.7%;
+	height: 103px;
+
+}
+
+#display-window #map #bottom {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.8em;
+
+}
+
+#display-window #grid div h2 {
+	margin-top: 2em;
+	text-align: center;
+}
+
+#display-window #grid .sk8result {
+	background-image: url(../pictures/skateresults.png);
+	width: 100%;
+	height: 90%;
+
+}
